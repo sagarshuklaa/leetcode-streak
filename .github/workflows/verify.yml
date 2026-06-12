@@ -1,0 +1,38 @@
+name: ✅ Verify Java Solutions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  compile:
+    name: Compile All Solutions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Compile all Solution.java files
+        run: |
+          echo "🔍 Finding and compiling all Solution.java files..."
+          FAILED=0
+          for file in $(find solutions -name "Solution.java"); do
+            echo "Compiling: $file"
+            javac "$file" -d /tmp/classes 2>&1 || { echo "❌ Failed: $file"; FAILED=1; }
+          done
+
+          if [ $FAILED -eq 1 ]; then
+            echo "❌ One or more solutions failed to compile."
+            exit 1
+          else
+            echo "✅ All solutions compiled successfully!"
+          fi
