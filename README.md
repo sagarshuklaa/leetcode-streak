@@ -38,7 +38,7 @@
     <td><code>Tree</code> <code>LCA</code> <code>Binary Lifting</code> <code>Math</code></td>
     <td align="center">2026-06-12</td>
   </tr>
-  <tr><td align="center"><b>3838</b></td><td><a href="solutions/3838-weighted-word-mapping/"><b>Weighted Word Mapping</b></a></td><td align="center">?? Easy</td><td><code>String</code> <code>Array</code> <code>Math</code></td><td align="center">2026-06-13</td></tr>  <tr><td align="center"><b>2130</b></td><td><a href="solutions/2130-maximum-twin-sum-of-a-linked-list/"><b>Maximum Twin Sum of a Linked List</b></a></td><td align="center">?? Medium</td><td><code>Linked List</code> <code>Two Pointers</code></td><td align="center">2026-06-14</td></tr>  <tr><td align="center><b>2130</b></td><td><a href=solutions/2130-maximum-twin-sum-of-a-linked-list/><b>Maximum Twin Sum of a Linked List</b></a></td><td align=center>=ƒƒí Medium</td><td><code>Linked List</code> <code>Two Pointers</code></td><td align=center>2026-06-14</td></tr></table>
+  <tr><td align="center"><b>3838</b></td><td><a href="solutions/3838-weighted-word-mapping/"><b>Weighted Word Mapping</b></a></td><td align="center">?? Easy</td><td><code>String</code> <code>Array</code> <code>Math</code></td><td align="center">2026-06-13</td></tr>  <tr><td align="center"><b>2130</b></td><td><a href="solutions/2130-maximum-twin-sum-of-a-linked-list/"><b>Maximum Twin Sum of a Linked List</b></a></td><td align="center">?? Medium</td><td><code>Linked List</code> <code>Two Pointers</code></td><td align="center">2026-06-14</td></tr>  <tr><td align="center><b>2130</b></td><td><a href=solutions/2130-maximum-twin-sum-of-a-linked-list/><b>Maximum Twin Sum of a Linked List</b></a></td><td align=center>=ƒƒí Medium</td><td><code>Linked List</code> <code>Two Pointers</code></td><td align=center>2026-06-14</td></tr>  <tr><td align="center"><b>2130</b></td><td><a href="solutions/2130-maximum-twin-sum-of-a-linked-list/"><b>Maximum Twin Sum of a Linked List</b></a></td><td align="center">?? Medium</td><td><code>Linked List</code> <code>Two Pointers</code></td><td align="center">2026-06-14</td></tr></table>
 
 ---
 
@@ -60,6 +60,7 @@
 
 *ðŸŸ© Consistency is the only shortcut â€” by [sagarshuklaa](https://github.com/sagarshuklaa)*
 </div>
+
 
 
 
