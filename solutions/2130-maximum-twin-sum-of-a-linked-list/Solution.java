@@ -1,1 +1,33 @@
-// Problem: Maximum Twin Sum of a Linked List`r`n// Link:    https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/`r`n// Date:    2026-06-14`r`n// Time:    O(n)`r`n// Space:   O(1)`r`n`r`npublic class Solution {`r`n    public int pairSum(ListNode head) {`r`n        int ans = 0;`r`n        ListNode slow = head;`r`n        ListNode fast = head;`r`n`r`n        while (fast != null ^&^& fast.next != null) {`r`n            slow = slow.next;`r`n            fast = fast.next.next;`r`n        }`r`n`r`n        ListNode tail = reverseList(slow);`r`n`r`n        while (tail != null) {`r`n            ans = Math.max(ans, head.val + tail.val);`r`n            head = head.next;`r`n            tail = tail.next;`r`n        }`r`n`r`n        return ans;`r`n    }`r`n`r`n    private ListNode reverseList(ListNode head) {`r`n        ListNode prev = null;`r`n        while (head != null) {`r`n            ListNode next = head.next;`r`n            head.next = prev;`r`n            prev = head;`r`n            head = next;`r`n        }`r`n        return prev;`r`n    }`r`n}`r`n`r`nclass ListNode {`r`n    int val;`r`n    ListNode next;`r`n    ListNode(int val) { this.val = val; }`r`n}
+// Problem: Maximum Twin Sum of a Linked List
+// Link:    https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+// Date:    2026-06-14
+// Time:    O(n) | Space: O(1)
+
+public class Solution {
+    public int pairSum(ListNode head) {
+        int ans = 0;
+        ListNode slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode tail = reverseList(slow);
+        while (tail != null) {
+            ans = Math.max(ans, head.val + tail.val);
+            head = head.next;
+            tail = tail.next;
+        }
+        return ans;
+    }
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+}
+class ListNode { int val; ListNode next; ListNode(int v){val=v;} }
