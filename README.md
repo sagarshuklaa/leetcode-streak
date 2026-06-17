@@ -5,7 +5,7 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-sagarshuklaa-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/sagarshuklaa)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
 [![Streak](https://img.shields.io/badge/Streak-Active-FF4500?style=for-the-badge)]()
-[![Solved](https://img.shields.io/badge/Solved-5-4CAF50?style=for-the-badge)]()
+[![Solved](https://img.shields.io/badge/Solved-6-4CAF50?style=for-the-badge)]()
 
 </div>
 
@@ -70,7 +70,7 @@
     <td><code>String</code> <code>Simulation</code></td>
     <td align="center">2026-06-16</td>
   </tr>
-</table>
+  <tr><td align="center"><b>3614</b></td><td><a href="solutions/3614-process-string-with-special-operations-ii/"><b>Process String with Special Operations II</b></a></td><td align="center">Hard</td><td><code>String</code> <code>Reverse Thinking</code></td><td align="center">2026-06-17</td></tr></table>
 
 ---
 
@@ -91,3 +91,4 @@
 
 *Consistency is the only shortcut — by sagarshuklaa*
 </div>
+
