@@ -5,7 +5,7 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-sagarshuklaa-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/sagarshuklaa)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
 [![Streak](https://img.shields.io/badge/Streak-Active-FF4500?style=for-the-badge)]()
-[![Solved](https://img.shields.io/badge/Solved-12-4CAF50?style=for-the-badge)]()
+[![Solved](https://img.shields.io/badge/Solved-13-4CAF50?style=for-the-badge)]()
 
 </div>
 
