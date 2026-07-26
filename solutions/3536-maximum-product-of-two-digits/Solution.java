@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // 3536. Maximum Product of Two Digits
 // https://leetcode.com/problems/maximum-product-of-two-digits/
 // Date: 2026-07-24

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // 628. Maximum Product of Three Numbers
 // https://leetcode.com/problems/maximum-product-of-three-numbers/
 // Date: 2026-07-25
