@@ -1,4 +1,4 @@
-﻿import java.util.Arrays;
+import java.util.Arrays;
 
 // 3517. Smallest Palindromic Rearrangement I
 // https://leetcode.com/problems/smallest-palindromic-rearrangement-i/

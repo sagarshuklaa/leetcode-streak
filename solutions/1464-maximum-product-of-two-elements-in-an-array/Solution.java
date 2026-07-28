@@ -1,8 +1,8 @@
 // 1464. Maximum Product of Two Elements in an Array
 // https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
 // Date: 2026-07-26
-// Time Complexity: O(n) — single pass through the array
-// Space Complexity: O(1) — only two tracking variables used
+// Time Complexity: O(n) - single pass through the array
+// Space Complexity: O(1) - only two tracking variables used
 
 class Solution {
     public int maxProduct(int[] nums) {
