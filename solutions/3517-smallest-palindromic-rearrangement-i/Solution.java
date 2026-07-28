@@ -1,10 +1,10 @@
-import java.util.Arrays;
+ï»¿import java.util.Arrays;
 
 // 3517. Smallest Palindromic Rearrangement I
 // https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
 // Date: 2026-07-27
-// Time Complexity: O(n log n) — dominated by sorting the first half of the string
-// Space Complexity: O(n) — for the char array and resulting strings
+// Time Complexity: O(n log n) - dominated by sorting the first half of the string
+// Space Complexity: O(n) - for the char array and resulting strings
 
 class Solution {
     public String smallestPalindrome(String s) {
